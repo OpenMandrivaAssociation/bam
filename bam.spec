@@ -1,11 +1,11 @@
 Name:           bam
-Version:        0.2.0
-Release:        %mkrel 2
+Version:        0.3.2
+Release:        %mkrel 1
 Summary:        A build-system
 Group:          Development/Other
 License:        MIT
-URL:            http://www.teeworlds.com
-Source0:        http://www.teeworlds.com/files/%{name}-%{version}.tar.gz
+URL:            http://matricks.github.com/bam/
+Source0:        http://matricks.github.com/bam/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
@@ -21,7 +21,7 @@ sh -x make_unix.sh %{optflags}
 %install
 rm -rf %{buildroot}
 
-install -D -m 0755 src/%{name} \
+install -D -m 0755 %{name} \
         %{buildroot}%{_bindir}/%{name}
 
 %clean
