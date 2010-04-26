@@ -1,6 +1,6 @@
 Name:           bam
 Version:        0.3.2
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        A build-system
 Group:          Development/Other
 License:        MIT
@@ -10,7 +10,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 %description
 A tool that controls process of producing executables of 
-software from its source code. Used to build the Teeworlds game.
+software from its source code.
 
 %prep
 %setup -q 
