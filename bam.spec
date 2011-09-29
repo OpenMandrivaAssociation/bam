@@ -13,7 +13,7 @@ A tool that controls process of producing executables of
 software from its source code.
 
 %prep
-%setup -q 
+%setup -q
 
 %build
 sh -x make_unix.sh %{optflags}
@@ -29,5 +29,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc docs/bam.1.txt
+%doc license.txt docs/*
 %{_bindir}/%{name}
