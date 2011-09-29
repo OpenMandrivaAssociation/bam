@@ -1,12 +1,12 @@
 Name:           bam
-Version:        0.3.2
-Release:        %mkrel 3
+Version:        0.4.0
+Release:        %mkrel 1
 Summary:        A build-system
 Group:          Development/Other
 License:        MIT
 URL:            http://matricks.github.com/bam/
-Source0:        http://matricks.github.com/bam/%{name}-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+Source0:        http://matricks.github.com/bam/%{name}-%{version}.tar.bz2
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 A tool that controls process of producing executables of 
