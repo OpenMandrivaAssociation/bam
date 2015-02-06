@@ -1,6 +1,6 @@
 Name:		bam
 Version:	0.4.0
-Release:	%mkrel 2
+Release:	3
 Summary:	A build-system
 Group:		Development/Other
 License:	MIT
